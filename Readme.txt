@@ -19,11 +19,14 @@ It was implemented this way because it creates the enemy and makes it do certain
 The singleton is implemented so the enemies can move and do things in the game. 
 It was implemented this way because it creates the enemy and makes it do certain actions in the game. 
 The singleton pattern creates the static class variable to make it easy to access modifiers and it shouldn't be a difficult task.
-
+In Donkey Kong the singleton was implemented to make donkey kong move and be controlled by the player. 
+The singleton is also used to create the enemy Mario so it makes him move and touches donkey kong to lose health. 
 
 
 Flowchart for the observer implementation
 
 
 The observer creates notifications to multiple objects about any new object or event that is created in the game. 
-The purpose of the observer is to have an object in an interesting state which means it will notify when something happens to it. 
+The purpose of the observer is to have an object in an interesting state which means it will notify when something happens to it.
+The observer is used to create the game-level design and object so the map is playable without any problems so the player can enjoy the game. 
+The obverse also shows the points and items players have in the user interface. 
